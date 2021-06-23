@@ -19,7 +19,7 @@
     android:title="@string/misc_title" >
 
     <!-- Three-fingers-swipe to screenshot -->
-    <org.exthmui.settings.preferences.SystemSettingSwitchPreference
+    <org.lineagemod.settings.preferences.SystemSettingSwitchPreference
         android:key="three_finger_gesture"
         android:icon="@drawable/ic_three_finger_gesture"
         android:title="@string/three_finger_gesture"
@@ -27,7 +27,7 @@
         android:defaultValue="false" />
 
     <!-- Screenshot compression -->
-    <org.exthmui.settings.preferences.SystemSettingSeekBarPreference
+    <org.lineagemod.settings.preferences.SystemSettingSeekBarPreference
 	android:key="screenshot_compression"
 	android:icon="@drawable/ic_screenshot"
 	android:title="@string/screenshot_compression_title"

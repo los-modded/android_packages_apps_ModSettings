@@ -14,8 +14,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="exthmui_settings_title">exTHmUI Settings</string>
-    <string name="exthmui_settings_summary">Customize your exTHmUI</string>
+    <string name="mod_settings_title">exTHmUI Settings</string>
+    <string name="mod_settings_summary">Customize your exTHmUI</string>
 
     <!-- Categories -->
     <string name="button_title">Buttons</string>

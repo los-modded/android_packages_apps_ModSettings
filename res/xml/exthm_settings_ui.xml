@@ -19,7 +19,7 @@
     android:title="@string/ui_title" >
 
     <!-- Screen off animation -->
-    <org.exthmui.settings.preferences.SystemSettingListPreference
+    <org.lineagemod.settings.preferences.SystemSettingListPreference
         android:key="screen_off_animation"
         android:icon="@drawable/ic_fullscreen_exit"
         android:title="@string/screen_off_animation_title"

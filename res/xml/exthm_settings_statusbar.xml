@@ -31,7 +31,7 @@
 	android:key="traffic_settings"
         android:title="@string/trafficsettings_title"
         android:summary="@string/trafficsettings_summary"
-        android:fragment="org.exthmui.settings.fragments.TrafficSettings"
+        android:fragment="org.lineagemod.settings.fragments.TrafficSettings"
         android:icon="@drawable/ic_settings_traffic" />
 
      <!-- Statusbar Ticker -->
@@ -39,10 +39,10 @@
         android:key="ticker_settings"
         android:title="@string/ticker_screen_title"
         android:summary="@string/ticker_screen_summary"
-        android:fragment="org.exthmui.settings.fragments.notifications.Ticker"/>
+        android:fragment="org.lineagemod.settings.fragments.notifications.Ticker"/>
      
      <!-- Statusbar Lyric -->
-    <org.exthmui.settings.preferences.SystemSettingSwitchPreference
+    <org.lineagemod.settings.preferences.SystemSettingSwitchPreference
         android:key="status_bar_show_lyric"
         android:title="@string/status_bar_show_lyric_title"
         android:summary="@string/status_bar_show_lyric_summary"

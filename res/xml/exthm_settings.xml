@@ -15,20 +15,20 @@
 -->
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
-    android:title="@string/exthmui_settings_title" >
+    android:title="@string/mod_settings_title" >
 
         <!-- Status Bar -->
         <Preference
             android:key="statusbar_category"
             android:title="@string/statusbar_title"
-            android:fragment="org.exthmui.settings.fragments.StatusBarSettings" 
+            android:fragment="org.lineagemod.settings.fragments.StatusBarSettings" 
             android:icon="@drawable/ic_settings_statusbar"/>
 
         <!-- Quick Settings panel -->
         <Preference
             android:key="quicksettings_category"
             android:title="@string/quicksettings_title"
-            android:fragment="org.exthmui.settings.fragments.QuickSettings"
+            android:fragment="org.lineagemod.settings.fragments.QuickSettings"
             android:icon="@drawable/ic_settings_quicksettings"/>
 
         <!-- Buttons -->
@@ -44,42 +44,42 @@
         <Preference
             android:key="navigationbar_category"
             android:title="@string/navbar_title" 
-            android:fragment="org.exthmui.settings.fragments.NavbarSettings"
+            android:fragment="org.lineagemod.settings.fragments.NavbarSettings"
             android:icon="@drawable/ic_settings_navbar"/>
 
         <!-- Lock Screen -->
         <Preference
             android:key="lockscreen_category"
             android:title="@string/lockscreen_title" 
-            android:fragment="org.exthmui.settings.fragments.LockScreenSettings"
+            android:fragment="org.lineagemod.settings.fragments.LockScreenSettings"
             android:icon="@drawable/ic_settings_lockscreens"/>
 
         <!-- Notifications -->
         <Preference
             android:key="notifications_category"
             android:title="@string/notifications_title"
-            android:fragment="org.exthmui.settings.fragments.NotificationSettings"
+            android:fragment="org.lineagemod.settings.fragments.NotificationSettings"
             android:icon="@drawable/ic_settings_notifications"/>
 
         <!-- Sound -->
         <Preference
             android:key="sound_category"
             android:title="@string/sound_title"
-            android:fragment="org.exthmui.settings.fragments.SoundSettings"
+            android:fragment="org.lineagemod.settings.fragments.SoundSettings"
             android:icon="@drawable/ic_settings_sound"/>
 
         <!-- User Interface -->
         <Preference
             android:key="ui_category"
             android:title="@string/ui_title"
-            android:fragment="org.exthmui.settings.fragments.UiSettings"
+            android:fragment="org.lineagemod.settings.fragments.UiSettings"
             android:icon="@drawable/ic_settings_ui"/>
 
         <!-- Misc -->
         <Preference
             android:key="misc_category"
             android:title="@string/misc_title" 
-            android:fragment="org.exthmui.settings.fragments.MiscSettings"
+            android:fragment="org.lineagemod.settings.fragments.MiscSettings"
             android:icon="@drawable/ic_settings_miscs"/>
 
         <!-- Theme -->
@@ -88,8 +88,8 @@
             android:title="@string/theme_title"
             android:icon="@drawable/ic_settings_theme">
             <intent android:action="android.intent.action.MAIN"
-                    android:targetPackage="org.exthmui.theme"
-                    android:targetClass="org.exthmui.theme.ThemePickerActivity" />
+                    android:targetPackage="org.lineagemod.theme"
+                    android:targetClass="org.lineagemod.theme.ThemePickerActivity" />
         </PreferenceScreen>
 
         <!-- YellowPage -->
@@ -98,15 +98,15 @@
             android:title="@string/yellowpage_title"
             android:icon="@drawable/ic_settings_yellowpage">
             <intent android:action="android.intent.action.MAIN"
-                    android:targetPackage="org.exthmui.yellowpage"
-                    android:targetClass="org.exthmui.yellowpage.SettingsActivity" />
+                    android:targetPackage="org.lineagemod.yellowpage"
+                    android:targetClass="org.lineagemod.yellowpage.SettingsActivity" />
         </PreferenceScreen>
 
         <!-- Gaming mode -->
         <Preference
             android:key="gaming_category"
             android:title="@string/gaming_title" 
-            android:fragment="org.exthmui.settings.fragments.GamingModeSettings"
+            android:fragment="org.lineagemod.settings.fragments.GamingModeSettings"
             android:icon="@drawable/ic_settings_gaming"/>
 
 </PreferenceScreen>
